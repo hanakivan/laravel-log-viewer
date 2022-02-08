@@ -1,6 +1,7 @@
 {
     "name": "hanakivan/laravel-log-viewer",
     "description": "A simple package to view laravel log files in browser.",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "hanakivan\\LaravelLogViewer\\": "src/"
