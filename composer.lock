@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4ec19a875d760086462f084ad3f85709",
+    "packages": [
+        {
+            "name": "hanakivan/date-formats",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hanakivan/php-date-formats.git",
+                "reference": "24dba03373a72d0b4977d29a7aac473e730e8f6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hanakivan/php-date-formats/zipball/24dba03373a72d0b4977d29a7aac473e730e8f6c",
+                "reference": "24dba03373a72d0b4977d29a7aac473e730e8f6c",
+                "shasum": ""
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "hanakivan\\": "src/hanakivan/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Hanak",
+                    "email": "packagist@ivanhanak.com"
+                }
+            ],
+            "description": "Human readable constants ready to be used instead of guessing what date parameter to use.",
+            "support": {
+                "issues": "https://github.com/hanakivan/php-date-formats/issues",
+                "source": "https://github.com/hanakivan/php-date-formats/tree/master"
+            },
+            "time": "2020-07-23T20:07:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
