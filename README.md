@@ -19,6 +19,9 @@ composer require hanakivan/laravel-log-viewer
 - set some random and unguessable prefix to access the log viewer, for example: `hanakivan.laravellogviewer.routeprefix=themostunsecureprefixevet`
 - run `php artisan serve` and access `http://127.0.0.1:8000/themostunsecureprefixevet/logviewer`
 
+### Gotchas
+- when running a production environment use `php artisan route:cache` to refresh routes everytime you configure the plugin
+
 
 ## Requires
 - Laravel >= 8.0
